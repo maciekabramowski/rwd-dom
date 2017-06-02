@@ -1,0 +1,22 @@
+html, body, header, div, h1, h2 {
+	margin: 0;
+}
+
+
+@media (min-width: 1170px) {
+    header.header {
+        height: 100vh;
+		background-image: url(../img/man-1.jpg);
+		position: relative;
+    }
+
+    header.header div.header-div {
+    color: #fff;
+    font-family: 'Verdana', 'sans-serif';
+    position: absolute;
+    text-align: left;
+    left: 3vw;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
