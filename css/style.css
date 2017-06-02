@@ -7,6 +7,8 @@ html, body, header, div, h1, h2 {
     header.header {
         height: 100vh;
 		background-image: url(../img/man-1.jpg);
+		background-size: cover;
+		background-position: center;
 		position: relative;
     }
 
@@ -20,3 +22,28 @@ html, body, header, div, h1, h2 {
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+@media (max-width: 1170px) {
+	header.header {
+        height: 70vh;
+		background-image: url(../img/man-2.jpg);
+		/*background-position: center;*/
+		background-size: cover;
+		position: relative;
+    }
+
+    header.header div.header-div {
+    height: 100%;
+    color: #fff;
+    font-family: 'Verdana', 'sans-serif';
+    position: absolute;
+    text-align: right;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 5vh 2vw;
+  }
+
+
+}
